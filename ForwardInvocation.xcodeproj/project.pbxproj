@@ -15,6 +15,9 @@
 		BA43E3B61DB75B8700367BE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA43E3B41DB75B8700367BE3 /* LaunchScreen.storyboard */; };
 		BA43E3C11DB75B8700367BE3 /* ForwardInvocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA43E3C01DB75B8700367BE3 /* ForwardInvocationTests.m */; };
 		BA43E3CC1DB75B8700367BE3 /* ForwardInvocationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA43E3CB1DB75B8700367BE3 /* ForwardInvocationUITests.m */; };
+		BA43E3DB1DB75BC100367BE3 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = BA43E3DA1DB75BC100367BE3 /* Student.m */; };
+		BA43E3DE1DB75D4B00367BE3 /* AspectProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA43E3DD1DB75D4B00367BE3 /* AspectProxy.m */; };
+		BA43E3E21DB75F9D00367BE3 /* AuditingInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = BA43E3E11DB75F9D00367BE3 /* AuditingInvoker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,13 @@
 		BA43E3C71DB75B8700367BE3 /* ForwardInvocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForwardInvocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA43E3CB1DB75B8700367BE3 /* ForwardInvocationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForwardInvocationUITests.m; sourceTree = "<group>"; };
 		BA43E3CD1DB75B8700367BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA43E3D91DB75BC100367BE3 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		BA43E3DA1DB75BC100367BE3 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		BA43E3DC1DB75D4B00367BE3 /* AspectProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AspectProxy.h; sourceTree = "<group>"; };
+		BA43E3DD1DB75D4B00367BE3 /* AspectProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspectProxy.m; sourceTree = "<group>"; };
+		BA43E3DF1DB75EDA00367BE3 /* Invoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		BA43E3E01DB75F9D00367BE3 /* AuditingInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuditingInvoker.h; sourceTree = "<group>"; };
+		BA43E3E11DB75F9D00367BE3 /* AuditingInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuditingInvoker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,13 @@
 				BA43E3AA1DB75B8700367BE3 /* AppDelegate.m */,
 				BA43E3AC1DB75B8700367BE3 /* ViewController.h */,
 				BA43E3AD1DB75B8700367BE3 /* ViewController.m */,
+				BA43E3D91DB75BC100367BE3 /* Student.h */,
+				BA43E3DA1DB75BC100367BE3 /* Student.m */,
+				BA43E3DC1DB75D4B00367BE3 /* AspectProxy.h */,
+				BA43E3DD1DB75D4B00367BE3 /* AspectProxy.m */,
+				BA43E3DF1DB75EDA00367BE3 /* Invoker.h */,
+				BA43E3E01DB75F9D00367BE3 /* AuditingInvoker.h */,
+				BA43E3E11DB75F9D00367BE3 /* AuditingInvoker.m */,
 				BA43E3AF1DB75B8700367BE3 /* Main.storyboard */,
 				BA43E3B21DB75B8700367BE3 /* Assets.xcassets */,
 				BA43E3B41DB75B8700367BE3 /* LaunchScreen.storyboard */,
@@ -271,8 +288,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA43E3AE1DB75B8700367BE3 /* ViewController.m in Sources */,
+				BA43E3E21DB75F9D00367BE3 /* AuditingInvoker.m in Sources */,
 				BA43E3AB1DB75B8700367BE3 /* AppDelegate.m in Sources */,
+				BA43E3DE1DB75D4B00367BE3 /* AspectProxy.m in Sources */,
 				BA43E3A81DB75B8700367BE3 /* main.m in Sources */,
+				BA43E3DB1DB75BC100367BE3 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
